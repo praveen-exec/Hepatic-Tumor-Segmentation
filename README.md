@@ -547,8 +547,6 @@ tf.random.set_seed(SEED)
 
 **Tasnim Shamim**
 
-* GitHub: [TasnimShamim](https://github.com/TasnimShamim)
-* Repository: [Hepatic Tumor Segmentation](https://github.com/TasnimShamim/Hepatic_tumor_segmentation)
 
 ---
 
