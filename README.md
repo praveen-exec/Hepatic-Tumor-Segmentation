@@ -391,7 +391,11 @@ This script can be used to perform further class-wise prediction analysis.
 ### U-Net Prediction
 
 <p align="center">
-  <img src="images/unet_prediction.png" width="900">
+  <img src="unet.png" width="900">
+</p>
+
+<p align="center">
+  <img src="unet_result.jpeg" width="900">
 </p>
 
 **Figure 3.** Segmentation results produced by the U-Net model.
@@ -407,7 +411,10 @@ The figure shows:
 ### Swin-UMamba Prediction
 
 <p align="center">
-  <img src="images/swin_umamba_prediction.png" width="900">
+  <img src="swin_result.png" width="900">
+</p>
+<p align="center">
+  <img src="swin_umamba.jpeg" width="900">
 </p>
 
 **Figure 4.** Segmentation results produced by the Swin-UMamba model.
