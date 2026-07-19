@@ -23,6 +23,28 @@ This project performs pixel-wise classification of CT images into three classes:
 | Tumor          |     2 | Hepatic tumor regions          |
 
 > **Disclaimer:** This project is intended for academic and research purposes only. It must not be used as a substitute for professional medical diagnosis.
+> 
+> ## Model Architectures
+
+This project explores two deep learning architectures for semantic segmentation of hepatic vessels and liver tumors.
+
+### U-Net Architecture
+
+<p align="center">
+  <img src="images/unet_architecture.png" width="850">
+</p>
+
+**Figure 1.** U-Net encoder–decoder architecture with skip connections.
+
+---
+
+### Swin-UMamba Architecture
+
+<p align="center">
+  <img src="images/swin_umamba_architecture.png" width="900">
+</p>
+
+**Figure 2.** Swin-UMamba architecture integrating Swin Transformer blocks with Mamba-based state-space modeling for enhanced global feature extraction.
 
 ---
 
@@ -364,26 +386,33 @@ This script can be used to perform further class-wise prediction analysis.
 
 ---
 
-## Prediction Visualization
+## Segmentation Results
 
-The project visualizes three outputs side by side:
+### U-Net Prediction
 
-1. Original CT scan
-2. Ground-truth segmentation
-3. Predicted segmentation
+<p align="center">
+  <img src="images/unet_prediction.png" width="900">
+</p>
 
-The visualization uses the following representation:
+**Figure 3.** Segmentation results produced by the U-Net model.
 
-```text
-Black → Background
-Cyan  → Hepatic Vessel
-Red   → Tumor
-```
+The figure shows:
 
-This makes it easier to compare predicted structures against the annotated masks.
+- Original CT Slice
+- Ground Truth Mask
+- Predicted Mask
 
 ---
 
+### Swin-UMamba Prediction
+
+<p align="center">
+  <img src="images/swin_umamba_prediction.png" width="900">
+</p>
+
+**Figure 4.** Segmentation results produced by the Swin-UMamba model.
+
+Compared to the baseline U-Net, Swin-UMamba captures richer contextual information through hierarchical Swin Transformer blocks and Mamba state-space modeling, leading to improved representation of complex anatomical structures.
 ## Challenges
 
 ### Class Imbalance
