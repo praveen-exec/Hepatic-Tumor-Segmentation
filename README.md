@@ -23,7 +23,7 @@ This project performs pixel-wise classification of CT images into three classes:
 | Tumor          |     2 | Hepatic tumor regions          |
 
 > **Disclaimer:** This project is intended for academic and research purposes only. It must not be used as a substitute for professional medical diagnosis.
-> ## Model Architectures
+ ## Model Architectures
 
 This project explores two deep learning architectures for semantic segmentation of hepatic vessels and liver tumors.
 
