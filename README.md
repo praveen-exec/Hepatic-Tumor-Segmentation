@@ -31,7 +31,7 @@ This project explores two deep learning architectures for semantic segmentation 
 ### U-Net Architecture
 
 <p align="center">
-  <img src="images/unet_architecture.png" width="850">
+  <img src="u-net-architecture.png" width="850">
 </p>
 
 **Figure 1.** U-Net encoder–decoder architecture with skip connections.
@@ -41,7 +41,7 @@ This project explores two deep learning architectures for semantic segmentation 
 ### Swin-UMamba Architecture
 
 <p align="center">
-  <img src="images/swin_umamba_architecture.png" width="900">
+  <img src="The-overall-architecture-of-Swin-UMamba-Swin-UMamba-can-leverage-the-power-of-vision.png" width="900">
 </p>
 
 **Figure 2.** Swin-UMamba architecture integrating Swin Transformer blocks with Mamba-based state-space modeling for enhanced global feature extraction.
